@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;   
+}
+.board-title-home {
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    color: #EEEEEE;  
+}
+.home-points-text {
+    width: 155px;
+    height: 120px;
+    /* top: 125px; */
+    border-radius: 5px;
+    background: #080001;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;  
+}
+.add-points-btns-home {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;    
+}
+.btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    text-underline-position: from-font;
+    color: #9AABD8;
+}
